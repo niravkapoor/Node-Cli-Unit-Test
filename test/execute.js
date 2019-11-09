@@ -1,6 +1,5 @@
 const { spawn } = require('child_process');
 const { existsSync } = require('fs');
-// const concat = require('concat-stream');
 
 function initProcess(processPath) {
     if (!processPath || !existsSync(processPath)) {
@@ -53,7 +52,7 @@ function executeWithInput(child_process, inputs = []) {
         iterate(inputs);
 
         child_process.stdout.on('end', data => {
-            resolve(result)
+            resolve(result);
         })
     });
     
