@@ -4,18 +4,18 @@ This application, explain the process of writing unit test cases for node js - c
 Application is based on test scenario's of creating the student record.
 
 Following , commands are supported in the application :
-1. User can create the student recod by typing : create <roll_no> <name> <marks>
+1. User can create the student recod by typing : **create <roll_no> <name> <marks>**
 For ex: create 1 nirav 95%
-2. User can find any record using : find <roll_no>
+2. User can find any record using : **find <roll_no>**
 For ex: find 1
-3. User can check the status of created record: status
+3. User can check the status of created record: **status**
 
 Program explain two different scenarios :
 
 1. File : **server.js** , to start the app type **npm run input**.
 It will asks, one of the above commands to be entered by the user.It moves step by step input from the user and performs the activity.
 
-2 File : **app.js** , to start the app type **npm run seq**
+2. File : **app.js** , to start the app type **npm run seq**
 It will asks, one of the above commands to be entered by the user. But, it first takes all the input from the user to create atleast 3 student records and then move to the other commands.
 
 ## Setup
