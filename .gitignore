@@ -13,3 +13,6 @@ coverage
 
 #node modules
 node_modules/
+
+#package-lock file
+package-lock.json
