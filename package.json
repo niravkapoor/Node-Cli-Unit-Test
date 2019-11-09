@@ -1,0 +1,25 @@
+{
+  "name": "node-cli-unit-testing",
+  "version": "1.0.0",
+  "description": "Unit Testing of Node Cli App",
+  "main": "dist/index.js",
+  "scripts": {
+    "input": "node  ./server.js",
+    "seq": "node ./app.js",
+    "start": "npm run input",
+    "test": "nyc --reporter=text mocha"
+  },
+  "keywords": [
+    "Nirav",
+    "nodejs",
+    "unit testing"
+  ],
+  "author": "Nirav Kapoor <niravkapoor27@gmail.com> (https://www.linkedin.com/in/nirav-kapoor-331b445a,  https://www.twitter.com/niravkapoor27 https://www.intellectcode.wordpress.com )",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~4.2.0",
+    "mocha": "~6.2.2",
+    "nyc": "~14.1.1"
+  }
+}
